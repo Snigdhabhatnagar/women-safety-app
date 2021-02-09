@@ -1,0 +1,54 @@
+.submit {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-bottom: 50px;
+}
+
+.submit-button {
+	border-radius: 35px;
+	width: 90%;
+	padding: 20px;
+}
+
+.forgot {
+	text-align: right;
+	margin-top: -50px;
+	margin-right: 27px;
+	color: white;
+}
+
+.login-form {
+	padding-top: 50px !important;
+}
+.head {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	margin-bottom: -30px;
+}
+.image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+.dialog-box {
+	min-height: 280px;
+	background-color: white;
+	border-radius: 35px;
+	margin-top: 50px;
+	box-shadow: -1px 3px 53px -15px rgba(0, 0, 0, 0.75);
+	-webkit-box-shadow: -1px 3px 53px -15px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow: -1px 3px 53px -15px rgba(0, 0, 0, 0.75);
+}
+.btn-custom {
+	background-color: #ff6f91;
+	color: white;
+}
+.bg {
+	background: #ffe5e5;
+	min-height: 100vh;
+}
