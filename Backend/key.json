@@ -1,0 +1,12 @@
+{
+	"type": "service_account",
+	"project_id": "artful-line-282004",
+	"private_key_id": "a22f9e2260c32f1c235747f1c5f85f180b7fe802",
+	"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCV9BUwcd3MvDnw\nmmLZw7IEOzptsIhYDGYCdWmijSDUo8ecK8WlmqoF6aKq13FwKuliuZKvFhlv3LJz\n7rYuG8BFFPT6gSS4GO3SQBHJWo3SP+BeBZObhtJX2Yf2NDzEjjsA0CEMePq3LMs/\ny56QZi4XwYQoHQw4dzKsWR3IkgDPEIx7CmFpqVLNw79sr494xPC0nSBp1ZUJMr34\nPhxzGuV3O5IIykoGd+EkVWq3q82RpUPYB1C5+oegbAQ+Bjw8a16tHbWA11MGth/I\nvFZrAhRh4I1+SMX9CIuK/IK3iWMYzpwtJk6/WMm0OiiVop+iVe+9ldPPheEtq9qN\nzr4UB5GvAgMBAAECggEAGS66eD5HH2Dk4hErVKLWvHst3snsu8ypPPR23wOQZeVz\nWjjHon4M251W4hX4SPwL4baEeb7eWrjXhzypf6jNa0yPr5oMjpYxKkP0OLpqYsqz\nZVbOaSoFHRe9C43OPrwcEJDjW/LdN/Hf2EDbyig+yWKITSxDpx/tdKAqrkpGtH8z\nKVvifrnnhEcT+HkltnE0N2Cnoc3xUh0J+CrnBrmITs0/c1ETm/IcqzoEr7meqgBe\nj7nPeUdBETShm8BCoSGSqbdnXIcPtLIPQMVyGLU7WuH+UShMS026a9ift5OhDJXq\npTS0mC/55HqUHXLJfS6G2oXdjjDzsc3U77GIhXJvsQKBgQDE4XblKGwEJIheSjd9\nxsA8/05Aa1qpto9SNuKl+CdszaqLHh8+7YHW0lL7LwOneD1o8mYwmQUBOie1tAdB\nGkpyk7wXYbzDS3rf8tyUV8gAECJiBzRsXDh7sxqjXoDuuLSKuIXhiR8+gEA2ywpi\n0W9N2wk1TWmt86qB/xc+TsskdQKBgQDC+z5zNzp2wdPGAChgOxd7FGvhSTOIAEoZ\ntlu204Ml2U5zb1TGCbWArs0URHOGi08vs2zy1uHWxoYdIDZgp385JyZTdVeXIjt7\nr/2OqrY9cL2JgII+SJwyyi5ckz6utOKuP6fIC3WlVjREUT/T3hDTQ85ZqD6slHOJ\nFsbwU4TJEwKBgHDckuzA5FLnomjzAKaQhekxrekN4ZZCehx2LC1aeTdNGwPPC7hm\nLLU6MqmdhOm+6u07b8tSHOVcMiFeh34RlTXjbMK2m6AUp+azcTF0tMkcdqldWfb4\nUsTOommepiizJ4QSTWVB1vBcUvNWJ6kISFcIRloQ+5DliwwkcG2ee6N1AoGAajTU\nlYm1zM5TfnzDgXdumNpM0RBAg4o00sCkQHgB7fHqa7Ju6NiNByUwDCQlEVp8raz8\nYWJu7cCBeQf81rUl9Ym/tKIsLeS1pe/9G2MdlWX9uBJJ34dJndjHXCHQePWKrAN8\nbtjfIkpMehIPxGYnoAxFME0WpobOUBQaFPpJUAUCgYAo4M2gNQ9zRekzmrbwtm16\nUkNpCe+UMls+f/By5l1GJG0Ir0T9RYbAxth8yx3HBk3rLogE37EuAeOp8xHc7w8o\ngqvqHwQWkoOMaq3adfBzDwDSbY6/OBREK0/+VYQIUhiC7jfTc0DEXCCaYdA5iKJc\nnRPyJAlGh1a3Wa+jzStGLg==\n-----END PRIVATE KEY-----\n",
+	"client_email": "dewi-15@artful-line-282004.iam.gserviceaccount.com",
+	"client_id": "113362929088300409013",
+	"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	"token_uri": "https://oauth2.googleapis.com/token",
+	"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/dewi-15%40artful-line-282004.iam.gserviceaccount.com"
+}

@@ -1,33 +1,28 @@
-import React from 'react';
-import useSpeechToText from 'react-hook-speech-to-text';
+import React, { Component } from "react";
+import "./App.css";
+import axios from "axios";
+class Button extends Component {
+	constructor() {
+		super();
+		this.state = { text: "" };
+	}
 
-export default function Button() {
-  const {
-    error,
-    isRecording,
-    results,
-    startSpeechToText,
-    stopSpeechToText,
-  } = useSpeechToText({
-    continuous: true,
-    crossBrowser: true,
-    googleApiKey: "AIzaSyBtKHZSd57mVAJa12yKnHaI-45v1Nqnk-s",
-    timeout: 10000,
-  });
+	async onListenClick() {
+		const response = await axios.get(
+			"http://localhost:3002/api/speech-to-text/"
+		);
+		console.log(response);
+		this.setState({ text: response.data });
+	}
 
-  if (error) return <p>Web Speech API is not available in this browser 🤷‍</p>;
-
-  return (
-    <div>
-      <h1>Recording: {isRecording.toString()}</h1>
-      <button onClick={isRecording ? stopSpeechToText : startSpeechToText}>
-        {isRecording ? 'Stop Recording' : 'Start Recording'}
-      </button>
-      <ul>
-        {results.map((result, index) => (
-          <li key={index}>{result}</li>
-        ))}
-      </ul>
-    </div>
-  );
+	render() {
+		return (
+			<div className='App'>
+				<button onClick={this.onListenClick.bind(this)}>Start</button>
+				<div style={{ fontSize: "40px" }}>{this.state.text}</div>
+			</div>
+		);
+	}
 }
+
+export default Button;
