@@ -29,8 +29,8 @@ Note - You'll need to have api keys, if needed for testing please drop a mail at
 2. run ```npm install```
 3. run ```npm start```
 4. Install expo app on mobile device.
-5. Scan QR code from your mobile.
-Backend has already been deployed. So no need to worry.   
+5. Scan QR code from your mobile.        
+Backend has already been deployed ( No need to start that). 
 
 To run the whole project:           
 1. Open Frontend folder in CLI. ( cd Frontend)
