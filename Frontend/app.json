@@ -1,0 +1,25 @@
+{
+	"expo": {
+		"name": "Women-safety-app",
+		"slug": "Women-safety-app",
+		"platforms": ["ios", "android", "web"],
+		"version": "1.0.0",
+		"orientation": "portrait",
+
+		"splash": {
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true,
+			"splash": {
+				"resizeMode": "contain"
+			}
+		}
+	}
+}
